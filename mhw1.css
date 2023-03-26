@@ -1,0 +1,133 @@
+   body
+{
+    font-family: 'Inter', sans-serif; font-size: 16px;
+}
+  
+ a{
+     text-decoration: none;
+ }
+ h1   {color:#fff;padding-bottom: 30px}
+ h2,h3,h4,h5,h6,p {color:#000;padding-bottom: 30px}
+ .big-text{font-size:50px;font-weight:800;font-family:Inter;padding:20px;text-align:center}
+ /*.ned-text{font-size: 40px;}
+ .normal-text{font-size: 20px;}
+ .small-text{font-size: 14px;}
+ .intro-text{text-transform: uppercase; font-size: 20px; font-weight:bold;} */
+
+ .buttom{padding: 18px 28px; background:#316bff;color:#fff; display:inline-block;border-radius:4px}
+  
+ @media (max-width: 500px) {
+     .big-text{font-size:40px;}
+article {
+margin: 0 2px;
+}
+}
+ 
+    
+ 
+ .header{
+   
+  width:100%;
+  position: fixed;
+  top:0;
+  left:49%;
+  transform: translateX(-50%);
+  padding: 15px; 
+  display: flex;
+  max-width: 1350px;
+  
+ }
+  
+ .menu{
+      
+    width:100%;
+ }
+ .menu li{display: inline-block;}
+ .menu li a{color: #fff; 
+            padding: 15px;
+            display:block;}
+     .cta{
+   position: 100%;
+                      
+   max-width: 1350px;
+   padding: 30px; 
+      
+ }
+ @media (max-width: 768px) {
+  .menu{
+      position:absolute; top:0; right:0;background:royalblue; height:100vh;
+  }
+article {
+margin: 0 2px;
+}
+}
+
+
+ .titolo{
+   
+     height:400px;
+     display: flex; width:100%; align-items: center;
+     background: linear-gradient(0deg, rgba(0,0,0,.3), rgba(0,0,0,0.9) ),url('sfondo.jpg') no-repeat center center;
+     background-size: cover;
+     
+ }
+ .titolo_content{
+     
+     width:100%;
+     max-width: 1350px;
+     margin: 0 auto;
+
+ }
+ .titolo_content h1
+ .titolo_content p(color:#fff;)
+
+ .paragrafo{
+     display:flex;
+     height:fit-content;
+    
+    
+ }
+ .paragrafo_ing{width:60%;
+}
+  .paragrafo_ing img{object-fit:cover; width:20%; height:100%  ;
+
+}
+.titolo_paragrafo{
+     width:30%;
+     text-align:center;
+     font-size:20px;
+     font-weight:90;
+     font-family:Inter,Helvetica;
+     padding:20px;
+     line-height:2px;
+     font-style: none; 
+     
+}
+.paragrafo_content{
+     width:70% ;
+       text-align:center;
+     font-size:17px;
+     font-weight:800;
+     font-family:Inter,Helvetica;
+     font-style: none; 
+     padding: 5px;
+     line-height:20px;
+     } 
+
+   
+ 
+
+   
+
+
+
+  .footer{
+  height:50px;
+  background:royalblue;
+   font-size:17px;
+     font-weight:800;
+     font-family:Inter,Helvetica;
+     font-style: none; 
+     padding: 3px;
+     line-height:1px;
+  }
